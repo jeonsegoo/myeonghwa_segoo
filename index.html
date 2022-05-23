@@ -57,13 +57,13 @@
         wow.init();
 
         $(document).ready(function() {
-            let date = new Date(2023, 1, 28);
+            let date = new Date(2023, 01, 28);
             let currentDate = new Date();
 
             let result = date - currentDate;
-            let misec = 24 * 60 * 60 * 1000;
+            let misec = 86400000; // 24 * 60 * 60 * 1000;
 
-            result = (result <= 0)? 0 : (parseInt(result / misec) + 1);
+            result = (result <= 0)? 0 : (parseInt(result/misec) + 1);
 
             $("#d-day").html(result);
         });
@@ -258,7 +258,7 @@
             <div class="container section4-title">
                 <!-- 테스트 구간  -->
                 <div class="wow fadeInUp">
-                    <p class="top-title">전세구 · 안명화</p>
+                    <p class="top-title">응원은 큰 힘이 됩니다.</p>
                 </div>
             
                 <div class="row">
@@ -302,9 +302,9 @@
                         </button>
                     </div>
                 </div>
+                <!-- 혼주 측 이름 쓰는 거
                 <br/>
 
-                <!-- 혼주 측 이름 쓰는 거
                 <div class="row" style="margin-top:1rem; margin-bottom: 1rem">
                     <div class="col-6 section4-sec1-2">
                         <span class="section4-sec1">신랑측 혼주</span>
@@ -337,7 +337,7 @@
         </div>
         <hr class="cover-container"/>
         <div class="wow fadeInUp section7 inner cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
-            <br/><br/>
+            <br/>
             <p class="wow fadeInUp section7-title section7-main">신랑 · 신부에게 마음 전하기</p>
             <br/>
             <!-- Button trigger modal -->
@@ -388,7 +388,7 @@
             </div>
             <br/><br/>
         </div>
-        <br/><br/>
+        <br/>
         <div class="wow fadeInUp section5 inner cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
             <br/>
             <p class="section5-title section5-main">달력</p>
@@ -484,6 +484,9 @@
                 // 마커가 지도 위에 표시되도록 설정합니다
                 marker.setMap(map);
             </script>
+
+            <img src="img/map.png" class="d-block w-100">
+
             <div class="wow fadeInUp section6-location p-3">
                 <div class="accordion" id="accordionExample">
                     <div class="card">
