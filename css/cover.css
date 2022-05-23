@@ -223,6 +223,7 @@ header {
   width:100%;
   height:100%;
   content: "";
+  /* 반지 사진 */
   background-image: url("../img/section2.jpg");
   background-size: cover;
   background-position: right;
