@@ -2743,6 +2743,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   animation-name: rollOut;
 }
 
+
 .box01{
   text-align: center;
 }
@@ -2752,20 +2753,16 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   outline: none;
   text-align: center;
 }
-
 .box01 button{
-  /* padding: 5px; */
-  background : none;
   border:none;
-  width: 45px;
-  height: 17px;
-  max-width: 90px;
-  /* vertical-align: bottom; */
+  width:90px;
+  height: 34px;
+  max-width: 100px;
+  vertical-align: bottom;
 }
 
 .box01 button img{
-  width: 45px; 
-  height: 17px;
+  width: 100%;
 }
 
 
