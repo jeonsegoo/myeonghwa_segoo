@@ -2752,15 +2752,18 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   outline: none;
   text-align: center;
 }
+
 .box01 button{
+  padding: 5px;
+  background : none;
   border:none;
-  width:70px;
-  max-width: 100px;
-  vertical-align: center;
+  width: 60px;
+  height: 20px;
 }
 
 .box01 button img{
-  width: 100%;
+  width: 60px;
+  height: 20px;
 }
 
 
