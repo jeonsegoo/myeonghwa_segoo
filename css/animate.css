@@ -2755,12 +2755,15 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   text-align: center;
 }
 .box01 button{
-  border:1px;
-  width:60px;
+  border:none;
+  width:90px;
+  height: 34px;
+  overflow:hidden;
+  margin: 0 auto;
   /* background-color: none; */
   /* height: 30px; */
   max-width: 100px;
-  vertical-align:auto;
+  /* vertical-align:auto; */
 }
 
 .box01 button img{
