@@ -2756,9 +2756,11 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 .box01 button{
   border:none;
+  /*  */
   width:90px;
+  /*  */
   height: 34px;
-  overflow:hidden;
+  overflow:visible;
   margin: 0 auto;
   /* background-color: none; */
   /* height: 30px; */
