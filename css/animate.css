@@ -2757,13 +2757,14 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   padding: 5px;
   background : none;
   border:none;
-  width: 60px;
-  height: 20px;
+  width: 45px;
+  height: 17px;
+  vertical-align: auto;
 }
 
 .box01 button img{
-  width: 60px;
-  height: 20px;
+  width: 45px; 
+  height: 17px;
 }
 
 
