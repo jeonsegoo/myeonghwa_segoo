@@ -2754,7 +2754,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 .box01 button{
   border:none;
-  width:60px;
+  width:70px;
   max-width: 100px;
   vertical-align: bottom;
 }
@@ -2764,7 +2764,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 
 
-
+/* 
 .box02{
   text-align: center;
 }
@@ -2783,4 +2783,4 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 .box02 button img{
   width: 100%;
-}
+} */
