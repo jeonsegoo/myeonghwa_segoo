@@ -2754,6 +2754,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   outline: none;
   text-align: center;
 }
+
 .box01 button{
   border:none;
   background-color: white;
@@ -2766,13 +2767,13 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
   /* background-color: none; */
   /* height: 30px; */
   /* max-width: 100px; */
-  object-fit: cover;
+  /* object-fit: cover; */
 
 }
 
 .box01 button img{
-  width: 95%;
-  height: 95%;
+  width: 80%;
+  height:auto;
   object-fit: cover;
   /* vertical-align:middle; */
 
