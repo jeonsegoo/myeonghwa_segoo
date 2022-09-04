@@ -2772,7 +2772,7 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 }
 
 .box01 button img{
-  width: 80%;
+  width: 85%;
   height:auto;
   object-fit: cover;
   /* vertical-align:middle; */
